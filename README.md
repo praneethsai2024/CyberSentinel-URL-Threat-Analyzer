@@ -1,19 +1,20 @@
-CyberSentinel is a web-based security application that detects whether a given URL is safe or malicious using Machine Learning (Random Forest algorithm). The system combines a modern React frontend with a Python-based ML backend to provide fast and accurate predictions.
+CyberSentinel – Intelligent URL Security Detection System
 
-🚀 Features
+CyberSentinel is a web-based security application designed to identify whether a given URL is safe or malicious using Machine Learning techniques. The system leverages a Random Forest Classifier for accurate threat detection and integrates a modern React-based frontend with a Python-powered ML backend to deliver fast and reliable predictions.
 
-Detects malicious vs safe URLs
+Key Features
 
-Machine Learning with Random Forest
+Real-time detection of malicious and safe URLs
 
-Interactive React UI
+Machine Learning–driven analysis using Random Forest
 
-Fast predictions
+Clean and interactive React user interface
 
-Prevents phishing and attacks
+High-speed prediction and response
 
-🏗️ Tech Stack
+Helps prevent phishing attacks and malicious web threats
 
+Technology Stack
 Frontend
 
 HTML5
@@ -24,22 +25,28 @@ JavaScript
 
 React.js
 
-Backend / ML
+Backend & Machine Learning
 
 Python
 
 Random Forest Classifier
 
+System Workflow
 
-⚙️ How It Works
+The user submits a URL through the React-based web interface.
 
-User enters a URL in the frontend interface.
-The URL is sent to the Python backend.
+The URL is forwarded to the Python backend for processing.
 
-Features are extracted from the URL.
+Relevant features are extracted from the URL.
 
-The Random Forest ML model analyzes the features.
+The trained Random Forest model evaluates these features.
 
-The system predicts:
-✅ Safe
-❌ Malicious
+The system returns a classification result:
+
+✅ Safe URL
+
+❌ Malicious URL
+
+Use Case
+
+CyberSentinel can be used as a preventive security tool for individuals and organizations to detect potentially harmful websites, enhancing protection against phishing attempts, malware distribution, and other web-based cyber threats.
