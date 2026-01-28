@@ -13,13 +13,21 @@ Fast predictions
 Prevents phishing and attacks
 
 🏗️ Tech Stack
+
 Frontend
+
 HTML5
+
 CSS3
+
 JavaScript
+
 React.js
+
 Backend / ML
+
 Python
+
 Random Forest Classifier
 
 
@@ -27,8 +35,11 @@ Random Forest Classifier
 
 User enters a URL in the frontend interface.
 The URL is sent to the Python backend.
+
 Features are extracted from the URL.
+
 The Random Forest ML model analyzes the features.
+
 The system predicts:
 ✅ Safe
 ❌ Malicious
